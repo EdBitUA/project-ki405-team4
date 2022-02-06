@@ -1,0 +1,306 @@
+body{
+   background-image: url(https://krot.info/uploads/posts/2021-02/1614133169_4-p-odnorodnii-serii-fon-5.jpg);
+
+
+}
+
+
+body, html {
+    height: 100%;
+    
+  }
+
+
+
+
+.navHeader{
+    background: -webkit-linear-gradient(45deg, rgb(160, 21, 227), rgb(107, 29, 172));
+    background: -moz-linear-gradient(45deg, rgb(160, 21, 227), rgb(107, 29, 172));
+    background: linear-gradient(45deg, rgb(160, 21, 227), rgb(107, 29, 172));
+padding: 25px;
+}
+.navbarBrand{
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+ margin-right: 30px;
+}
+.link{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.glavnaja{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.cardContent{
+    margin-top: 30px;
+}
+.colors{
+    /* background: -webkit-linear-gradient(45deg, rgb(38, 220, 229), rgb(41, 224, 232));
+background: -moz-linear-gradient(45deg, rgb(38, 220, 229), rgb(41, 224, 232));
+background: linear-gradient(45deg, rgb(38, 220, 229), rgb(41, 224, 232)); */
+color: white;
+padding: 35px;
+font-size: 25px;
+border-radius: 30px;
+
+}
+.block{
+    background: -webkit-linear-gradient(45deg, rgb(21, 162, 227), rgb(29, 120, 172));
+    background: -moz-linear-gradient(45deg, rgb(21, 162, 227), rgb(29, 120, 172));
+    background: linear-gradient(45deg, rgb(21, 162, 227), rgb(29, 120, 172));
+    color: white;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.text{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.textContent{
+ padding: 30px;
+ background: -webkit-linear-gradient(45deg, rgb(21, 162, 227), rgb(29, 120, 172));
+ background: -moz-linear-gradient(45deg, rgb(21, 162, 227), rgb(29, 120, 172));
+ background: linear-gradient(45deg, rgb(21, 162, 227), rgb(29, 120, 172));
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proAvtor{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+.imgContent{
+    margin-top: 20px;
+   
+}
+.imgImg{
+    background-size: 200px;
+}
+.itemsAvtor{
+    padding: 80px;
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 40px;
+    
+    
+}
+.Menu{
+    margin-top: 30px;
+    text-align: center;
+}
+.itemsMenu{
+padding-bottom: 50px;
+    text-decoration: none;
+}
+.items{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+   
+ 
+   
+ padding: 50px;
+}
+@media (max-width: 991px){
+    .itemsMenu{
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 768px){
+    .itemsAvtor{
+        padding-bottom: 130px;
+    }
+    .itemsMenu{
+padding-bottom: 0;
+    }
+}
+.content{
+    display: block;
+    /* background-color: rgb(107, 29, 172); */
+    color: white;
+    padding: 35px;
+    font-size: 25px;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content1{
+
+}
+.padd{
+    padding-right: 30px;
+
+}
+
+.navbarBrand:hover{
+    color: yellow;
+}
+.home:hover{
+    color: yellow;
+}
+.link:hover{
+    color: yellow;
+}
+.glavnaja:hover{
+    color: yellow;
+}
+.text:hover{
+    color: yellow;
+}
+.proAvtor:hover{
+    color: yellow;
+}
+/* .cartka{
+    height: 500px;
+} */
+.blockk{
+    background: -webkit-linear-gradient(45deg, rgb(21, 162, 227), rgb(29, 120, 172));
+    background: -moz-linear-gradient(45deg, rgb(21, 162, 227), rgb(29, 120, 172));
+    background: linear-gradient(45deg, rgb(21, 162, 227), rgb(29, 120, 172));
+    color: white;
+    height: 100px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.emailll{
+    color: white;
+    font-size: 25px;
+}
+.pass{
+    color: white;
+    font-size: 25px;
+}
+.boxchek{
+    color: white;
+    font-size: 25px;
+}
+@media (max-width: 410px){
+    .itemsMenu{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 372px){
+    .itemsMenu{
+        padding-left: 15px;
+        margin-left: 5px;
+    }
+}
+.cardColor{
+    background-color: blueviolet;
+}
+
+.cardColor1{
+    background-color: rgb(226, 55, 43);
+}
+.regg{
+    margin-top: 20px;
+}
+.title{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ctext{
+    font-size: 20px;
+}
+.pro{
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+.proto{
+  
+    padding: 20px;
+   
+    text-align: center;
+    border-radius: 40px;
+}
+.prototi{
+    padding: 30px;
+}
+.blocky{
+    background-color: rgb(32, 32, 32);
+    padding: 30px;
+    text-align: center;
+
+}
+.padtop{
+    padding-top: 30px;
+}
+.color{
+    color: white;
+    font-size: 25px;
+}
+.ptext{
+    font-size: 40px;
+    color: white;
+    padding: 30px;
+    padding-bottom: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.knopka{
+    cursor: pointer;
+}
+@media(max-width:360px){
+    .items{
+        font-size: 10px;
+    }
+}
+.font{
+    font-size: 25px;
+}
+.fonto{
+    font-size: 35px;
+}
+.fotka{
+border-radius: 500px;
+
+}
+.link:hover{
+    color: rgb(189, 189, 189);
+    font-size: 30px;
+    transition: all 0.6s;
+}
+
+.ikno{
+    height: 40px;
+    width: 40px;
+   
+}
+.sikon{
+margin-right: 30px;
+text-decoration: none;
+}
